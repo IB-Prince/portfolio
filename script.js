@@ -26,8 +26,8 @@ $(document).ready(function(){
     // typing animation script
     var typed = new Typed(".typing", {
         strings: ["Flutter Mobile App Developer", "Backend Developer(Python/Django)", "Freelancer", "AI Enthusiast"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        typeSpeed: 200,
+        backSpeed: 100,
         loop: true
     });
 
