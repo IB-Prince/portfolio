@@ -146,7 +146,7 @@ section{
     padding: 100px 0;
 }
 
-.about, .services, .skills,.team, .contact, footer{
+.about, .services, .skills,.certificates, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -236,16 +236,16 @@ section .title::after{
 
 /* services section styling */
 
-.services, .team{
+.services, .certificates{
     color: #fff;
     background: #111;
 }
 .services .title::before,
-.team .title::before{
+.certificates .title::before{
     background: #fff;
 }
 .services .title::after,
-.team .title::after{
+.certificates .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -357,34 +357,34 @@ section .title::after{
     width: 70%;
 }
 
-/* team section styling */
-.team .title::after{
+/* certificates section styling */
+.certificates .title::after{
     content: "who with me";
 }
-.team .carousel .card{
+.certificates .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     transition: all 0.3s ease;
 }
-.team .carousel .card:hover{
+.certificates .carousel .card:hover{
     background: crimson;
 }
-.team .carousel .card .box{
+.certificates .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.team .carousel .card:hover .box{
+.certificates .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.team .carousel .card .text{
+.certificates .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.team .carousel .card img{
+.certificates .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -392,7 +392,7 @@ section .title::after{
     border: 5px solid crimson;
     
 }
-.team .carousel .card:hover img{
+.certificates .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -627,4 +627,5 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+
 }
