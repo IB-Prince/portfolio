@@ -25,16 +25,16 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Flutter Mobile App Developer", "Backend Developer(Python/Django)", "Freelancer", "AI Enthusiast"],
-        typeSpeed: 200,
-        backSpeed: 100,
+        strings: ["Flutter Developer", "Django Backend Developer", "Programmer", "AI Enthusiast"],
+        typeSpeed: 60,
+        backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Flutter Mobile App Developer", "Backend Developer(Python/Django)", "Freelancer", "AI Enthusiast"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: ["Flutter Developer", "Django Backend Developer", "Programmer", "AI Enthusiast"],
+        typeSpeed: 60,
+        backSpeed: 30,
         loop: true
     });
     // owl carousel script
