@@ -146,7 +146,7 @@ section{
     padding: 100px 0;
 }
 
-.about, .services, .skills,.certificates, .contact, footer{
+.about, .services, .skills,.accreditations, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -236,16 +236,16 @@ section .title::after{
 
 /* services section styling */
 
-.services, .certificates{
+.services, .accreditations{
     color: #fff;
     background: #111;
 }
 .services .title::before,
-.certificates .title::before{
+.accreditations .title::before{
     background: #fff;
 }
 .services .title::after,
-.certificates .title::after{
+.accreditations .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -348,43 +348,57 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .python::before{
-    width: 60%;
-}
-.skills-content .right .mysql::before{
     width: 70%;
 }
-
-/* certificates section styling */
-.certificates .title::after{
-    content: "Certificates & Badges";
+.skills-content .right .flutter::before{
+    width: 70%;
 }
-.certificates .carousel .card{
+.skills-content .right .python::before{
+    width: 70%;
+}
+.skills-content .right .django::before{
+    width: 60%;
+}
+.skills-content .right .postgresql::before{
+    width: 80%;
+}
+.skills-content .right .mysql::before{
+    width: 80%;
+}
+
+/* accreditations section styling */
+.accreditations .title::after{
+    content: "accreditations & Badges";
+}
+.accreditations .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     transition: all 0.3s ease;
 }
-.certificates .carousel .card:hover{
+.accreditations .carousel .card:hover{
     background: crimson;
 }
-.certificates .carousel .card .box{
+.accreditations .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.certificates .carousel .card:hover .box{
+.accreditations .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.certificates .carousel .card .text{
+.accreditations .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: #fff;
 }
-.certificates .carousel .card img{
+.accreditations .carousel .card p{
+    text-align: center;
+    color: #fff;
+}
+.accreditations .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -392,7 +406,7 @@ section .title::after{
     border: 5px solid crimson;
     
 }
-.certificates .carousel .card:hover img{
+.accreditations .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
