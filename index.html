@@ -263,25 +263,30 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Send message</button>
-                        </div>
-                    </form>
+                    <form id="contact-form">
+                         <div class="fields">
+                             <div class="field name">
+                                <input type="text" name="from_name" placeholder="Name" required>
+                             </div>
+                             <div class="field email">
+                                <input type="email" name="reply_to" placeholder="Email" required>
+                             </div>
+                         </div>
+                         <div class="field">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                         </div>
+                         <div class="field textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                         </div>
+                         <div class="button">
+                            <button type="submit" id="send-btn">Send message</button>
+                         </div>
+                        <div id="form-status" aria-live="polite" style="margin-top:10px;font-size:14px;"></div>
+                     </form>
+                    <p style="margin-top:10px;font-size:12px;">
+                        If the button doesn’t work on your device, you can email me directly:
+                        <a href="mailto:ibprince48@gmail.com?subject=Portfolio%20Inquiry">ibprince48@gmail.com</a>
+                    </p>
                 </div>
 
             </div>
@@ -294,6 +299,10 @@
         <span>Created By <a href="#">Prince Iqbal </a><span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('QXwZ6LubyDgtZwqRB')
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
