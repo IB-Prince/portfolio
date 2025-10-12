@@ -371,17 +371,17 @@ section .title::after{
     background: crimson;
 
 }
-.skills-content .right .html::before{
-    width: 90%;
+.skills-content .right .java::before{
+    width: 80%;
 }
-.skills-content .right .css::before{
+.skills-content .right .spring_framework::before{
     width: 60%;
 }
 .skills-content .right .js::before{
     width: 70%;
 }
-.skills-content .right .flutter::before{
-    width: 70%;
+.skills-content .right .spring_boot::before{
+    width: 60%;
 }
 .skills-content .right .python::before{
     width: 70%;
@@ -389,10 +389,13 @@ section .title::after{
 .skills-content .right .django::before{
     width: 60%;
 }
-.skills-content .right .postgresql::before{
+.skills-content .right .cpp::before{
+    width: 75%;
+}
+.skills-content .right .sql::before{
     width: 80%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .dsa::before{
     width: 80%;
 }
 

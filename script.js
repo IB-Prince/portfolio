@@ -25,14 +25,14 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Flutter Developer", "Django Backend Developer", "Programmer", "AI Enthusiast"],
+        strings: ["Java Developer", "Backend Developer", "Software Engineer", "Problem Solver"],
         typeSpeed: 60,
         backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Flutter Developer", "Django Backend Developer", "Programmer", "AI Enthusiast"],
+        strings: ["Java Developer", "Backend Developer", "Software Engineer", "Problem Solver"],
         typeSpeed: 60,
         backSpeed: 30,
         loop: true
