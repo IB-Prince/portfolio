@@ -266,6 +266,7 @@ section .title::after{
 
 /* services section styling */
 
+
 .services, .accreditations{
     color: #fff;
     background: #111;
@@ -304,6 +305,9 @@ section .title::after{
 }
 .services .serv-content .card:hover i{
     color: #fff;
+}
+.services .serv-content .card:hover span{
+    color: #fff !important;
 }
 .services .serv-content .card .text{
     font-size: 25px;
