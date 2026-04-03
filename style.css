@@ -559,7 +559,7 @@ section .title::after{
 
 /* accreditations section styling */
 .accreditations .title::after{
-    content: "Accreditations & Badges";
+    content: "my credentials";
 }
 .accreditations .carousel .card{
     background: #222;
