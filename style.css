@@ -376,31 +376,22 @@ section .title::after{
 
 }
 .skills-content .right .java::before{
-    width: 80%;
-}
-.skills-content .right .spring_framework::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .spring_boot::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .python::before{
-    width: 70%;
+    width: 90%;
 }
-.skills-content .right .django::before{
-    width: 60%;
+.skills-content .right .ts_react::before{
+    width: 85%;
 }
-.skills-content .right .cpp::before{
-    width: 75%;
+.skills-content .right .js::before{
+    width: 85%;
+}
+.skills-content .right .flutter::before{
+    width: 80%;
 }
 .skills-content .right .sql::before{
-    width: 80%;
-}
-.skills-content .right .dsa::before{
-    width: 80%;
+    width: 85%;
 }
 
 /* Projects Section Styling */
@@ -545,6 +536,23 @@ section .title::after{
 .projects .projects-content .project-card:hover .project-link:hover {
     background: #111;
     color: #fff;
+}
+
+/* Featured project card */
+.projects .projects-content .project-card.featured {
+    width: 100%;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 1px solid crimson;
+}
+.projects .projects-content .project-card.featured:hover {
+    background: crimson;
+}
+
+/* 4-card grid: 1 full-width + 3 columns */
+@media (min-width: 948px) {
+    .projects .projects-content .project-card:not(.featured) {
+        width: calc(33.33% - 20px);
+    }
 }
 
 /* projects section styling End */
@@ -710,6 +718,23 @@ footer{
     padding: 20px 23px;
     color: #fff;
 }
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .footer-links{
+    display: flex;
+    gap: 20px;
+}
+footer .footer-links a{
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+footer .footer-links a:hover{
+    color: crimson;
+}
 footer span a{
     color: crimson;
     text-decoration: none;
@@ -793,6 +818,10 @@ footer span a:hover{
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
+    }
+    .projects .projects-content .project-card,
+    .projects .projects-content .project-card.featured{
+        width: 100%;
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
