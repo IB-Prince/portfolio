@@ -2,560 +2,381 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prince Iqbal | Lead Software Engineer</title>
-    <meta name="description" content="Lead Software Engineer at Zaza AI. I build scalable web apps, SaaS platforms, mobile apps, and enterprise systems. Java, Python, TypeScript, React, Next.js, Flutter & more." />
-    <link rel="stylesheet" href="style.css" />
+    <title>Iqbal Bahar Prince | Voice AI &amp; Backend Engineer</title>
+    <meta
+      name="description"
+      content="Software engineer building real-time voice AI and production backends. Founding engineer of ZazaVoice. Java, Spring Boot, PostgreSQL, Twilio, Gemini, Next.js."
+    />
+    <meta name="theme-color" content="#0e0d0b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="scroll-up-btn">
-      <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="navbar">
-      <div class="max-width">
-        <div class="logo">
-          <a href="#">Prin<span>ce.</span></a>
-        </div>
-        <ul class="menu">
-          <li><a href="#home" class="menu-btn">Home</a></li>
-          <li><a href="#about" class="menu-btn">About</a></li>
-          <li><a href="#services" class="menu-btn">Services</a></li>
-          <li><a href="#skills" class="menu-btn">Skills</a></li>
-          <li><a href="#projects" class="menu-btn">Projects</a></li>
-          <li><a href="#accreditations" class="menu-btn">Accreditations</a></li>
-          <li><a href="#contact" class="menu-btn">Contact</a></li>
-        </ul>
-        <div class="menu-btn">
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav">
+      <div class="wrap nav-inner">
+        <a href="#top" class="logo" aria-label="Home">
+          <span class="logo-dot"></span>prince<span class="muted">.dev</span>
+        </a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
           <i class="fas fa-bars"></i>
-        </div>
+        </button>
+        <nav>
+          <ul class="menu" id="menu">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="menu-cta">Hire me</a></li>
+          </ul>
+        </nav>
       </div>
-    </nav>
+    </header>
 
-    <!-- HOME SECTION START  -->
-
-    <section class="home" id="home">
-      <div class="max-width">
-        <div class="home-content">
-          <div class="text-1">Hello, my name is</div>
-          <div class="text-2">Iqbal Bahar Prince</div>
-          <div class="text-3">And I'm a <span class="typing"></span></div>
-          <a href="#contact">Hire Me</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- about section start  -->
-    <section class="about" id="about">
-      <div class="max-width">
-        <h2 class="title">About Me</h2>
-        <div class="about-content">
-          <div class="column left">
-            <div class="photo-crop">
-              <img
-                src="images/profile-1.jpeg"
-                alt="Profile photo of Prince Iqbal"
-              />
-            </div>
-          </div>
-          <div class="column right">
-            <div class="text">I'm Prince, a <span class="typing-2"></span></div>
-            <p>
-              Lead Software Engineer at <b>Zaza AI</b>, where I architect and
-              build production-grade software products from the ground up. I lead
-              the development of <b>zazavoice.com</b> — an AI-powered SaaS
-              platform — handling everything from system design to deployment.<br /><br />
-              I work across the full stack with <b>Java, Spring Boot, Python,
-              FastAPI, Django, TypeScript, React, Next.js,</b> and
-              <b>Flutter</b> for mobile. Whether it's an enterprise backend,
-              a real-time web app, a cross-platform mobile app, or a complete
-              SaaS product — I build it end to end, and I build it to scale.
-            </p>
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="wrap">
+          <p class="eyebrow reveal">
+            <span class="live"></span> Available for freelance &amp; contract work
+          </p>
+          <h1 class="hero-title reveal">
+            I build software that <em>listens</em>,<br />
+            thinks, and talks back.
+          </h1>
+          <p class="hero-sub reveal">
+            I'm <strong>Iqbal Bahar Prince</strong>, a software engineer who builds
+            real-time voice AI and production backends. As founding engineer I
+            took <a href="https://zazavoice.com" target="_blank" rel="noopener">ZazaVoice</a>
+            from zero to live as the only engineer on the team.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#work" class="btn btn-primary">See the work <i class="fas fa-arrow-down"></i></a>
             <a
-              class="Download-cv"
-              href="assets/Prince_Iqbal_CV.pdf"
-              download="Prince_Iqbal_CV.pdf"
-              type="application/pdf"
-              aria-label="Download my CV"
-              >Download CV</a
+              href="assets/Iqbal_Bahar_Prince_Senior_Developer.pdf"
+              download="Iqbal_Bahar_Prince_CV.pdf"
+              class="btn btn-ghost"
+              ><i class="fas fa-file-download"></i> Download CV</a
             >
           </div>
+
+          <div class="console reveal" aria-hidden="true">
+            <div class="console-bar">
+              <span>CH-01 · inbound call</span>
+              <span class="typing" data-words="streaming STT → LLM → TTS|barge-in detected · yielding turn|tool_call: book_appointment()|listen-first gate · 1.2 s silence|8 kHz μ-law → 24 kHz PCM"></span>
+            </div>
+            <div class="wave" id="wave"></div>
+          </div>
+
+          <dl class="stats reveal">
+            <div><dt>1</dt><dd>engineer behind a live multi-tenant voice AI platform</dd></div>
+            <div><dt>2</dt><dd>real-time speech pipelines, cascaded and speech-to-speech</dd></div>
+            <div><dt>8</dt><dd>stage application workflow shipped for a recruitment agency</dd></div>
+          </dl>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- services section start  -->
-    <section class="services" id="services">
-      <div class="max-width">
-        <h2 class="title">My services</h2>
-        <div class="serv-content">
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-cloud"></i>
-              <div class="text">SaaS & Web Application Development</div>
-              <p>
-                Full-stack SaaS platforms and web apps with React, Next.js,
-                Django, FastAPI, and Spring Boot — from MVP to production.
-              </p>
+      <!-- WORK -->
+      <section class="section" id="work">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <span class="kicker">01 / Selected work</span>
+            <h2>Systems I built <em>end to end</em></h2>
+          </header>
+
+          <article class="case case-feature reveal">
+            <div class="case-meta">
+              <span class="tag-live"><span class="live"></span> Live</span>
+              <span>Zaza AI · Founding Engineer · 2025–2026</span>
             </div>
+            <h3>ZazaVoice: a voice AI platform for businesses</h3>
+            <p class="case-lede">
+              A multi-tenant B2B platform where businesses deploy AI agents for inbound
+              support, appointment booking and outbound campaigns. I was the only engineer,
+              covering architecture, telephony, billing and the mobile softphone.
+            </p>
+
+            <figure class="pipeline" aria-label="Audio pipeline: caller to Twilio Media Streams to speech-to-text, Gemini, ElevenLabs and back">
+              <div class="node"><i class="fas fa-phone-alt"></i><b>Caller</b><small>PSTN</small></div>
+              <div class="link"><span>8 kHz μ-law</span></div>
+              <div class="node"><i class="fas fa-stream"></i><b>Twilio</b><small>Media Streams</small></div>
+              <div class="link"><span>stream</span></div>
+              <div class="node"><i class="fas fa-microphone"></i><b>STT</b><small>Google streaming</small></div>
+              <div class="link"><span>text</span></div>
+              <div class="node node-hot"><i class="fas fa-brain"></i><b>Gemini</b><small>+ function calls</small></div>
+              <div class="link"><span>reply</span></div>
+              <div class="node"><i class="fas fa-volume-up"></i><b>TTS</b><small>ElevenLabs</small></div>
+            </figure>
+
+            <div class="case-grid">
+              <div>
+                <h4>What I shipped</h4>
+                <ul class="ticks">
+                  <li>Streaming STT, LLM and TTS over Twilio bidirectional Media Streams, with barge-in when the caller interrupts</li>
+                  <li>A second, lower-latency speech-to-speech path on the Gemini Live API, resampling 8 kHz μ-law to and from 16/24 kHz PCM in real time</li>
+                  <li>Live-call function calling for availability checks, appointment booking with a double-booking guard, contact capture and voicemail detection</li>
+                  <li>Human handoff over Twilio Conference with AI or voicemail fallback, plus a React Native softphone</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Hard problems solved</h4>
+                <ul class="ticks">
+                  <li>Replaced Twilio's answering-machine detection with a listen-first gate: it greets after 1.2 s of silence or a human hello and hangs up on voicemail or IVR</li>
+                  <li>Campaign dialer with multi-phone retries and TCPA calling-hour limits; fixed a retry bug that dialed one lead dozens of times</li>
+                  <li>Fixed production races: a webhook vs dispatcher insert race (unique constraint), idempotent Stripe events and atomic SQL wallet debits</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="chips">
+              <span>Java 21</span><span>Spring Boot 3</span><span>PostgreSQL</span><span>WebSockets</span><span>Twilio</span><span>Gemini Live</span><span>ElevenLabs</span><span>Google STT/TTS</span><span>Stripe</span><span>Next.js 14</span><span>React Native</span><span>Cloud Run</span>
+            </div>
+            <div class="case-links">
+              <a href="https://zazavoice.com" target="_blank" rel="noopener" class="link-arrow">zazavoice.com <i class="fas fa-arrow-right"></i></a>
+              <a href="https://thezazastudio.com" target="_blank" rel="noopener" class="link-arrow">Zaza AI <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <div class="case-row">
+            <article class="case reveal">
+              <div class="case-meta"><span>Client project · Freelance · 2026</span></div>
+              <h3>Recruitment platform for Milad International</h3>
+              <p>
+                A bilingual platform for an overseas employment agency, delivered on a
+                fixed-scope contract. It covers job and visa listings, document uploads and an
+                8-stage application workflow.
+              </p>
+              <ul class="ticks">
+                <li>Passport and NID numbers encrypted at rest</li>
+                <li>Documents served only behind server-side authorization checks</li>
+                <li>Docker on a Linux VPS behind Cloudflare Tunnel, with nightly backups</li>
+              </ul>
+              <div class="chips">
+                <span>Java 21</span><span>Spring Boot 4</span><span>PostgreSQL</span><span>Flyway</span><span>Thymeleaf</span><span>htmx</span><span>Docker</span>
+              </div>
+            </article>
+
+            <article class="case reveal">
+              <div class="case-meta"><span>Research · North South University · 2022–2023</span></div>
+              <h3>PEMF therapy signal analysis</h3>
+              <p>
+                Analyzed thermal imaging, PPG and Doppler data from 40 participants across
+                4 therapy configurations, fitting Stefan–Boltzmann heat-rate trends that
+                showed configuration-dependent effects.
+              </p>
+              <ul class="ticks">
+                <li>Data cleaning and modeling in Python</li>
+                <li>Thesis with Dr. Zaid Bin Mahbub; journal manuscript in preparation</li>
+              </ul>
+              <div class="chips">
+                <span>Python</span><span>pandas</span><span>NumPy</span><span>SciPy</span><span>Matplotlib</span>
+              </div>
+            </article>
           </div>
 
-          <div class="card">
-            <div class="box">
-              <i class="fas fa-mobile-alt"></i>
-              <div class="text">Cross-Platform Mobile Apps</div>
-              <p>
-                Native-quality mobile applications with Flutter & Dart,
-                deployed to both iOS and Android from a single codebase.
-              </p>
-            </div>
+          <div class="oss reveal">
+            <span class="kicker">On GitHub</span>
+            <a href="https://github.com/IB-Prince/employee-management-api" target="_blank" rel="noopener">
+              <i class="fab fa-java"></i><b>employee-management-api</b><small>Spring Boot · layered REST API</small>
+            </a>
+            <a href="https://github.com/IB-Prince/flask-live-crud" target="_blank" rel="noopener">
+              <i class="fab fa-python"></i><b>flask-live-crud</b><small>Flask · PostgreSQL · Railway</small>
+            </a>
+            <a href="https://github.com/IB-Prince/onlinecourseplatform" target="_blank" rel="noopener">
+              <i class="fab fa-python"></i><b>onlinecourseplatform</b><small>Django · role-based auth</small>
+            </a>
           </div>
+        </div>
+      </section>
 
-          <div class="card">
-            <div class="box">
+      <!-- EXPERIENCE -->
+      <section class="section section-alt" id="experience">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <span class="kicker">02 / Experience</span>
+            <h2>The <em>track list</em></h2>
+          </header>
+          <ol class="tracks">
+            <li class="reveal">
+              <span class="t-when">Oct 2026 – Now</span>
+              <div>
+                <h3>Freelance Software Engineer</h3>
+                <p class="t-where">Self-employed · Remote</p>
+                <p>Fixed-scope client builds on Spring Boot and PostgreSQL, from schema to deployment.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="t-when">Oct 2025 – Sep 2026</span>
+              <div>
+                <h3>Founding Engineer, Zaza AI</h3>
+                <p class="t-where">ZazaVoice · Remote</p>
+                <p>Sole engineer on a multi-tenant voice AI platform, from first commit to live customers.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="t-when">2022 – 2023</span>
+              <div>
+                <h3>Undergraduate Researcher</h3>
+                <p class="t-where">North South University</p>
+                <p>Biomedical signal and thermal data analysis in Python.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="t-when">2018 – 2023</span>
+              <div>
+                <h3>Freelance Designer &amp; Mobile Developer</h3>
+                <p class="t-where">Upwork &amp; direct clients · Remote</p>
+                <p>Flutter app for a German client (rated 4.6/5), 8 design orders and a website, with repeat clients.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="t-when">2023</span>
+              <div>
+                <h3>B.Sc. Computer Science &amp; Engineering</h3>
+                <p class="t-where">North South University</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- STACK -->
+      <section class="section" id="stack">
+        <div class="wrap">
+          <header class="section-head reveal">
+            <span class="kicker">03 / Stack</span>
+            <h2>Tools I've <em>shipped with</em></h2>
+          </header>
+          <div class="stack">
+            <div class="stack-card stack-hot reveal">
+              <i class="fas fa-wave-square"></i>
+              <h3>Voice AI</h3>
+              <p>Real-time STT/LLM/TTS pipelines, Twilio Programmable Voice (Media Streams, Conference, Client SDK), Google Cloud Speech, ElevenLabs, Gemini Live API, LLM function calling, μ-law audio</p>
+            </div>
+            <div class="stack-card reveal">
               <i class="fas fa-server"></i>
-              <div class="text">Backend & API Engineering</div>
-              <p>
-                Scalable microservices, REST & GraphQL APIs with Java Spring
-                Boot, Python FastAPI/Django, and Node.js/TypeScript.
-              </p>
+              <h3>Backend</h3>
+              <p>Spring Boot, Spring Security, Hibernate, REST APIs, webhooks, WebSockets, async jobs, Django</p>
+            </div>
+            <div class="stack-card reveal">
+              <i class="fas fa-database"></i>
+              <h3>Languages &amp; Data</h3>
+              <p>Java, TypeScript, JavaScript, Python, SQL, PostgreSQL, Flyway, JSONB, indexing, transactions</p>
+            </div>
+            <div class="stack-card reveal">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Frontend &amp; Mobile</h3>
+              <p>Next.js, React, React Native (Expo), Flutter, Thymeleaf, htmx</p>
+            </div>
+            <div class="stack-card reveal">
+              <i class="fas fa-cloud"></i>
+              <h3>Cloud &amp; DevOps</h3>
+              <p>GCP (Cloud Run, Cloud SQL, Secret Manager, Cloud Build), Docker, CI/CD, Cloudflare, Linux, Stripe</p>
+            </div>
+          </div>
+
+          <div class="certs reveal">
+            <span class="kicker">Certifications · Coursera (IBM)</span>
+            <div class="cert-grid">
+              <a href="https://www.coursera.org/account/accomplishments/verify/ABD8AXQVFXL5" target="_blank" rel="noopener">
+                <img src="images/soft-eng-badge.png" alt="" loading="lazy" /><span>Introduction to Software Engineering</span>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/JLBW5WRVPUG5" target="_blank" rel="noopener">
+                <img src="images/python-ds-badge.png" alt="" loading="lazy" /><span>Python for Data Science, AI &amp; Development</span>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/MCX79G8FSHQJ" target="_blank" rel="noopener">
+                <img src="images/django-badge.png" alt="" loading="lazy" /><span>Django Application Development with SQL</span>
+              </a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/DTQM4TVOHTRL" target="_blank" rel="noopener">
+                <img src="images/docker-badge.png" alt="" loading="lazy" /><span>Containers with Docker, Kubernetes &amp; OpenShift</span>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- skills section start -->
-    <section class="skills" id="skills">
-      <div class="max-width">
-        <h2 class="title">My Skills</h2>
-        <div class="skills-content">
-          <div class="column left">
-            <div class="text">Engineering at Every Layer</div>
+      <!-- ABOUT -->
+      <section class="section section-alt" id="about">
+        <div class="wrap about">
+          <div class="about-photo reveal">
+            <img src="images/profile-1.jpeg" alt="Portrait of Iqbal Bahar Prince" loading="lazy" />
+          </div>
+          <div class="about-text reveal">
+            <span class="kicker">04 / About</span>
+            <h2>Engineer first, <em>product owner</em> by necessity.</h2>
             <p>
-              As Lead Software Engineer at <strong>Zaza AI</strong>, I own the
-              full technical stack — from database design and API architecture
-              to frontend interfaces and mobile deployments.
+              I like problems with real-time constraints and real money on the line: phone
+              calls that can't lag, wallets that can't double-debit, dialers that must
+              respect the law. Being the sole engineer taught me to own a system end to end,
+              including the schema, the telephony edge cases, the deploy pipeline and the
+              3 a.m. race condition.
             </p>
             <p>
-              I've built and shipped production systems across
-              <strong>Java/Spring, Python/FastAPI/Django, TypeScript/React/Next.js,</strong>
-              and <strong>Dart/Flutter</strong>. I don't specialize in one layer
-              — I deliver complete products.
+              Right now I take on freelance and contract work. Typical projects:
             </p>
-            <p>
-              Looking for someone who can take your idea from architecture to
-              deployment? <strong>Let's talk.</strong>
-            </p>
-          </div>
-          <div class="column right">
-            <div class="bars">
-              <div class="info">
-                <span>Java / Spring Boot</span>
-                <span>90%</span>
-              </div>
-              <div class="line java"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>Python / FastAPI / Django</span>
-                <span>90%</span>
-              </div>
-              <div class="line python"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>TypeScript / React / Next.js</span>
-                <span>85%</span>
-              </div>
-              <div class="line ts_react"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>JavaScript / Node.js</span>
-                <span>85%</span>
-              </div>
-              <div class="line js"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>Dart / Flutter</span>
-                <span>80%</span>
-              </div>
-              <div class="line flutter"></div>
-            </div>
-            <div class="bars">
-              <div class="info">
-                <span>SQL / PostgreSQL / Database Design</span>
-                <span>85%</span>
-              </div>
-              <div class="line sql"></div>
-            </div>
+            <ul class="offer">
+              <li><i class="fas fa-headset"></i> Voice AI agents for inbound support, booking and outbound campaigns</li>
+              <li><i class="fas fa-cogs"></i> Spring Boot + PostgreSQL backends that stay correct under load</li>
+              <li><i class="fas fa-rocket"></i> Full products: web, mobile and cloud deployment</li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- projects section start -->
-    <section class="projects" id="projects">
-      <div class="max-width">
-        <h2 class="title">My Projects</h2>
-        <div class="projects-content">
-          <!-- Project 1: Zaza Voice - Flagship SaaS -->
-          <div class="project-card featured">
-            <div class="project-image">
-              <i class="fas fa-robot project-icon"></i>
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">Zaza Voice — AI SaaS Platform</h3>
-              <p class="project-description">
-                Leading the end-to-end development of an AI-powered voice
-                platform at Zaza AI. Architected the full system — backend
-                APIs, real-time processing pipeline, dashboard UI, and
-                deployment infrastructure. Built to serve production workloads
-                at scale.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">FastAPI</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Next.js</span>
-                <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">AI/ML</span>
-                <span class="tech-tag">PostgreSQL</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://zazavoice.com"
-                  target="_blank"
-                  class="project-link"
-                >
-                  <i class="fas fa-external-link-alt"></i> Live Product
-                </a>
-                <a
-                  href="https://thezazastudio.com"
-                  target="_blank"
-                  class="project-link"
-                >
-                  <i class="fas fa-building"></i> Company
-                </a>
-              </div>
-            </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="wrap contact">
+          <div class="contact-intro reveal">
+            <span class="kicker">05 / Contact</span>
+            <h2>Have a call to <em>answer?</em></h2>
+            <p>Tell me what you're building. I usually reply within a day.</p>
+            <ul class="contact-list">
+              <li><i class="fas fa-envelope"></i><a href="mailto:ibprince48@gmail.com?subject=Portfolio%20Inquiry">ibprince48@gmail.com</a></li>
+              <li><i class="fas fa-phone-alt"></i><a href="tel:+8801794689278">+880 1794 689278</a></li>
+              <li><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/ibprince001" target="_blank" rel="noopener">linkedin.com/in/ibprince001</a></li>
+              <li><i class="fab fa-github"></i><a href="https://github.com/IB-Prince" target="_blank" rel="noopener">github.com/IB-Prince</a></li>
+              <li><i class="fas fa-map-marker-alt"></i><span>Dhaka, Bangladesh · works remote</span></li>
+            </ul>
           </div>
 
-          <!-- Project 2: Employee Management API -->
-          <div class="project-card">
-            <div class="project-image">
-              <i class="fab fa-java project-icon"></i>
+          <form id="contact-form" class="form reveal">
+            <div class="form-row">
+              <label>Name<input type="text" name="from_name" autocomplete="name" required /></label>
+              <label>Email<input type="email" name="reply_to" autocomplete="email" required /></label>
             </div>
-            <div class="project-info">
-              <h3 class="project-title">Employee Management API</h3>
-              <p class="project-description">
-                Enterprise-grade REST API using Spring Boot with layered
-                architecture, DTO patterns, and comprehensive exception
-                handling. Demonstrates clean backend architecture principles.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Spring Boot</span>
-                <span class="tech-tag">Spring Data JPA</span>
-                <span class="tech-tag">REST API</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/IB-Prince/employee-management-api"
-                  target="_blank"
-                  class="project-link"
-                >
-                  <i class="fab fa-github"></i> View Code
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3: Flask API -->
-          <div class="project-card">
-            <div class="project-image">
-              <i class="fab fa-python project-icon"></i>
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">Flask Production API</h3>
-              <p class="project-description">
-                High-performance RESTful API with Flask & PostgreSQL deployed
-                on Railway. Achieved 40% latency reduction through optimized
-                query handling and route architecture.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Flask</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Railway</span>
-                <span class="tech-tag">REST API</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/IB-Prince/flask-live-crud"
-                  target="_blank"
-                  class="project-link"
-                >
-                  <i class="fab fa-github"></i> View Code
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 4: Course Management System -->
-          <div class="project-card">
-            <div class="project-image">
-              <i class="fab fa-python project-icon"></i>
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">Course Management Platform</h3>
-              <p class="project-description">
-                Full-stack course platform with role-based auth (learners,
-                instructors, admins), dynamic enrollment workflows, and 30%
-                faster page loads through database optimization.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">Django</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Authentication</span>
-                <span class="tech-tag">REST API</span>
-              </div>
-              <div class="project-links">
-                <a
-                  href="https://github.com/IB-Prince/onlinecourseplatform"
-                  target="_blank"
-                  class="project-link"
-                >
-                  <i class="fab fa-github"></i> View Code
-                </a>
-              </div>
-            </div>
-          </div>
+            <label>Subject<input type="text" name="subject" required /></label>
+            <label>Project details<textarea name="message" rows="6" required></textarea></label>
+            <button type="submit" id="send-btn" class="btn btn-primary">Send message <i class="fas fa-paper-plane"></i></button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
         </div>
-      </div>
-    </section>
-    <!-- Certification section start  -->
-    <section class="accreditations" id="accreditations">
-      <div class="max-width">
-        <h2 class="title">Accreditations</h2>
-        <div class="carousel owl-carousel">
-          <div class="card">
-            <a
-              href="https://www.coursera.org/account/accomplishments/verify/ABD8AXQVFXL5"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View Coursera IBM Introduction to Software Engineering certificate"
-              title="View Certificate"
-            >
-              <div class="box">
-                <img
-                  src="images/soft-eng-badge.png"
-                  alt="Introduction to Software Engineering badge"
-                />
-                <div class="text">Coursera (IBM)</div>
-                <p>Introduction to Software Engineering</p>
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a
-              href="https://www.coursera.org/account/accomplishments/verify/JLBW5WRVPUG5"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View Coursera IBM Python for Data Science, AI & Development certificate"
-              title="View Certificate"
-            >
-              <div class="box">
-                <img
-                  src="images/python-ds-badge.png"
-                  alt="Python for Data Science badge"
-                />
-                <div class="text">Coursera (IBM)</div>
-                <p>Python for Data Science, AI & Development</p>
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a
-              href="https://www.coursera.org/account/accomplishments/verify/MCX79G8FSHQJ"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View Coursera IBM Django Application Development certificate"
-              title="View Certificate"
-            >
-              <div class="box">
-                <img
-                  src="images/django-badge.png"
-                  alt="Django Application Development badge"
-                />
-                <div class="text">Coursera (IBM)</div>
-                <p>Django Application Development with SQL and Databases</p>
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a
-              href="https://www.coursera.org/account/accomplishments/verify/DTQM4TVOHTRL"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View Coursera IBM Introduction to Containers with Docker, Kubernetes & OpenShift certificate"
-              title="View Certificate"
-            >
-              <div class="box">
-                <img
-                  src="images/docker-badge.png"
-                  alt="Containers with Docker & Kubernetes badge"
-                />
-                <div class="text">Coursera (IBM)</div>
-                <p>
-                  Introduction to Containers w/ Docker, Kubernetes & OpenShift
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-      <div class="max-width">
-        <h2 class="title">Contact me</h2>
-        <div class="contact-content">
-          <div class="column left">
-            <div class="text">Get in Touch</div>
-            <p>
-              Have a project in mind? Whether it's a SaaS platform, mobile app,
-              enterprise system, or API — I'll build it from architecture to
-              deployment. Let's discuss your requirements.
-            </p>
-            <div class="icons">
-              <div class="row">
-                <i class="fas fa-user"></i>
-                <div class="info">
-                  <div class="head">Name</div>
-                  <div class="sub-title">Iqbal Bahar Prince</div>
-                </div>
-              </div>
-              <div class="row">
-                <i class="fas fa-phone fa-flip-horizontal"></i>
-                <div class="info">
-                  <div class="head">Phone</div>
-                  <div class="sub-title">+880 179468-9278</div>
-                </div>
-              </div>
-              <div class="row">
-                <i class="fas fa-map-marker-alt"></i>
-                <div class="info">
-                  <div class="head">Address</div>
-                  <div class="sub-title">Dhaka - 1229, Bangladesh</div>
-                </div>
-              </div>
-              <div class="row">
-                <i class="fas fa-envelope"></i>
-                <div class="info">
-                  <div class="head">Email</div>
-                  <div class="sub-title">ibprince48@gmail.com</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column right">
-            <div class="text">Message me</div>
-            <form id="contact-form">
-              <div class="fields">
-                <div class="field name">
-                  <input
-                    type="text"
-                    name="from_name"
-                    placeholder="Name"
-                    required
-                  />
-                </div>
-                <div class="field email">
-                  <input
-                    type="email"
-                    name="reply_to"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="field">
-                <input
-                  type="text"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div class="field textarea">
-                <textarea
-                  name="message"
-                  cols="30"
-                  rows="10"
-                  placeholder="Describe project.."
-                  required
-                ></textarea>
-              </div>
-              <div class="button">
-                <button type="submit" id="send-btn">Send message</button>
-              </div>
-              <div
-                id="form-status"
-                aria-live="polite"
-                style="margin-top: 10px; font-size: 14px"
-              ></div>
-            </form>
-            <p style="margin-top: 10px; font-size: 12px">
-              If the button doesn’t work on your device, you can email me
-              directly:
-              <a href="mailto:ibprince48@gmail.com?subject=Portfolio%20Inquiry"
-                >ibprince48@gmail.com</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- footer section start  -->
-
-    <footer>
-      <div class="max-width footer-content">
-        <span
-          >Created By <a href="#">Prince Iqbal </a
-          ><span class="far fa-copyright"></span> 2026 All rights reserved.</span
-        >
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <span>© 2026 Iqbal Bahar Prince</span>
         <div class="footer-links">
-          <a href="https://github.com/IB-Prince" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/in/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://thezazastudio.com" target="_blank" aria-label="Zaza AI"><i class="fas fa-building"></i></a>
+          <a href="https://github.com/IB-Prince" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/ibprince001" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
         </div>
       </div>
     </footer>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      emailjs.init("QXwZ6LubyDgtZwqRB");
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>emailjs.init("QXwZ6LubyDgtZwqRB");</script>
     <script src="script.js"></script>
   </body>
 </html>
